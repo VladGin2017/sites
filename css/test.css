@@ -1,0 +1,43 @@
+.wraper {
+    display: grid;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    column-gap: 10px;
+    row-gap: 10px;
+    background-color: #2d3136;
+}
+
+.box1 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box2 {
+    grid-row-start: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box3 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.callback-input-name,
+.callback-input-mail {
+    width: 400px;
+    height: 50px;
+    background-color: #2f3338;
+}
+
+.callback-input-message {
+    width: 400px;
+    height: 165px;
+    background-color: #2f3338;
+}

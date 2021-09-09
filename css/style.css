@@ -1,0 +1,442 @@
+body {
+    font-family: sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: 1090px;
+    max-width: 1980px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/png/layer2.png), url(../img/Layer4.jpg);
+    background-blend-mode: normal;
+    background-size: 1980px;
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+
+.header__navigation {
+    display: flex;
+    height: 70px;
+    padding-top: 90px;
+    margin-bottom: 200px;
+    align-items: center;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(../img/png/circle_half.png), url(../img/png/circle.svg);
+    background-blend-mode: normal;
+    background-size: 70px ;
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+}
+
+.site-description {
+    padding-left: 100px;
+    font-size: 46px;
+    color: #fff;
+}
+
+.header__text {
+    margin: 0;
+    padding: 0;
+    padding-left: 700px;
+    font-size: 18px;
+    font-style: italic;
+    color: #cad1db;
+}
+
+.lgn-btn {
+    width: 102px;
+    margin-left: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #3d4b60;
+    text-align: center;
+    font-size: 20px;
+    color: #cad1db;
+    border-radius: 10px;
+    
+}
+
+.header__read-more {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/png/img-chat.png);
+    background-repeat: no-repeat;
+    background-size: 330px;
+    background-position: right 0;
+}
+
+.read-more__heading {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 75px;
+    font-size: 58px;
+    color: #fff;
+}
+
+.read-more__description {
+    max-width: 590px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 75px;
+    font-size: 26px;
+    color: #c5d2e5;
+}
+
+.read-more__btn {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 250px;
+    font-size: 32px;
+    text-align: center;
+    color: #fff;
+    background-color: #67bf95;
+    border-radius: 10px;
+}
+
+.notice {
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 150px;
+    background-image: url(../img/png/bluepaper.png);
+    background-repeat: no-repeat;
+    background-size: 220px;
+    background-position: bottom left;
+}
+
+.notice__block {
+    display: inline-block;
+    max-height: 220px;
+    margin-left: 350px;
+}
+
+.notice__heading {
+    margin: 0;
+    padding: 0;
+    margin-top: 150px;
+    padding-bottom: 25px;
+    font-size: 44px;
+    color: #37414e;
+}
+
+.notice__description {
+    margin: 0;
+    padding: 0;
+    max-width: 700px;
+    font-size: 22px;
+    text-align: justify;
+    line-height: 32px;
+    color: #4b596c;
+}
+
+.btns-list {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 150px;
+    list-style: none;
+}
+
+.btns-item {
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+
+.bg-1 {
+    background-image: url(../img/svg/Ellipse-green.svg);
+    background-size: 70px ;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+
+.bg-2 {
+    background-image: url(../img/svg/Ellipse-green-ring.svg);
+    background-size: 70px;
+    background-repeat: no-repeat;
+}
+
+.modern-era {
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #52ad81;
+    background-image: url(../img/png/__\ Browser-window\ __.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+}
+
+.modern-era__heading {
+    width: 1300px;
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 75px;
+    font-size: 44px;
+    text-align: center;
+    color: #fff;
+}
+
+.modern-era__description {
+    width: 1300px;
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+}
+
+/*-----------------Price Section -----------------*/
+
+.price {
+    width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.price-heading {
+    margin: 0;
+    margin-top: 150px;
+    font-size: 44px;
+    text-align: center;
+    color: #37414e;
+}
+
+.price-description {
+    margin: 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 32px;
+}
+
+.price-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    padding-top: 150px;
+}
+
+.price-item {
+    width: 300px;
+    height: 520px;
+    background-color: #deebde;
+    list-style: none;
+}
+
+.free-plan,
+.prof-plan,
+.ent-plan {
+    list-style: none;
+    padding: 0;
+}
+
+.free-plan__name {
+    background-color: #4b596c;
+}
+
+.prof-plan__name {
+    background-color: #58ad52;
+}
+
+.ent-plan__name {
+    background-color: #52a1ad;
+}
+
+.free-plan__name,
+.prof-plan__name,
+.ent-plan__name {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+}
+
+.free-plan__price {
+    color: #6d737b;
+}
+
+.prof-plan__price {
+    color: #58ad52;
+}
+
+.ent-plan__price {
+    color: #52a1ad;
+}
+
+.free-plan__price,
+.prof-plan__price,
+.ent-plan__price {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.free-plan__item,
+.prof-plan__item,
+.ent-plan__item {
+    padding-top: 75px;
+    text-align: center;
+    font-size: 28px;
+    color: #6d737b;
+}
+
+.sgn-btn {
+    background-color: #4b596c;
+}
+
+.prof-btn {
+    background-color: #58ad52;
+}
+
+.entpr-btn {
+    background-color: #52a1ad;
+}
+
+.sgn-btn,
+.prof-btn,
+.entpr-btn {
+    position: absolute;
+    width: 300px;
+    margin-top: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+}
+
+/*-----------------Video Section -----------------*/
+.video {
+    margin-top: 250px;
+}
+
+.video-heading {
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 44px;
+    color: #4b596c;
+    text-align: center;
+    background-color: #e9eaed;
+}
+
+.video-container {
+    height: 1100px;
+    max-width: 1980px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/png/Layer5.png), url(../img/png/vehicle.png);
+    background-blend-mode: normal;
+    background-repeat: no-repeat;
+    background-size: 1980px;
+    background-position: center 0;
+}
+
+
+/*----------------- CallBack Section -----------------*/
+
+.callback {
+    background-image: url(../img/png/contact-icon.png);
+    background-position: center 75px;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-color: #2d3136;
+}
+
+.callback-list {
+    display: grid;
+    width: 1000px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 350px;
+    padding-bottom: 200px;
+}
+
+.callback-item-message {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-left: auto;
+}
+
+.callback-item-button {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-left: auto;
+}
+
+.callback-input-name,
+.callback-input-mail {
+    width: 400px;
+    height: 50px;
+    padding: 0;
+    border: 2px solid #4c4f53;
+    border-radius: 6px;
+    outline: none;
+    font-size: 22px;
+    color: #fff;
+    background-color: #2f3338;
+}
+
+.callback-input-name:focus,
+.callback-input-mail:focus,
+.callback-input-message:focus {
+    border: 2px solid #743538;
+    background-color: #2f3136;
+}
+
+.callback-input-message {
+    width: 450px;
+    height: 175px;
+    padding: 0;
+    border: 2px solid #4c4f53;
+    border-radius: 6px;
+    outline: none;
+    font-size: 22px;
+    color: #fff;
+    resize: none;
+    background-color: #2f3338;
+} 
+
+
+.input-name {
+    color: #fff;
+    font-size: 22px;
+}
+
+.sub-btn {
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 22px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #be393b;   
+}
