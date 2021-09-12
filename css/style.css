@@ -1,5 +1,46 @@
+@font-face {
+    font-family: 'Roboto-regular';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+        url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-italic';
+    src: url('../fonts/roboto-italic-webfont.woff2') format('woff2'),
+        url('../fonts/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-bold';
+    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+        url('../fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-medium';
+    src: url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
+        url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-thin';
+    src: url('../fonts/roboto-thin-webfont.woff2') format('woff2'),
+        url('../fonts/roboto-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto-regular';
+
 }
 
 
@@ -7,6 +48,7 @@ a {
     text-decoration: none;
 }
 
+/*----------------- Header Section -----------------*/
 .header {
     height: 1090px;
     max-width: 1980px;
@@ -39,6 +81,11 @@ a {
     padding-left: 100px;
     font-size: 46px;
     color: #fff;
+    transition: color 0.3s ease;
+}
+
+.site-description:hover {
+    color: #d2d2d2;
 }
 
 .header__text {
@@ -46,7 +93,7 @@ a {
     padding: 0;
     padding-left: 700px;
     font-size: 18px;
-    font-style: italic;
+    font-family: 'Roboto-italic';
     color: #cad1db;
 }
 
@@ -60,7 +107,12 @@ a {
     font-size: 20px;
     color: #cad1db;
     border-radius: 10px;
-    
+    transition: background 0.1s linear;
+}
+
+.lgn-btn:hover {
+    background-color: #505f77;
+    transition: background 0.1s linear;
 }
 
 .header__read-more {
@@ -100,6 +152,12 @@ a {
     color: #fff;
     background-color: #67bf95;
     border-radius: 10px;
+    transition: background 0.2s linear;
+}
+
+.read-more__btn:hover {
+    background-color: #45a979;
+    transition: background 0.2s linear;
 }
 
 .notice {
@@ -150,17 +208,18 @@ a {
     display: block;
     width: 70px;
     height: 70px;
+    cursor: pointer;
 }
 
 .bg-1 {
-    background-image: url(../img/svg/Ellipse-green.svg);
+    background-image: url(../img/png/Btn-Register.png);
     background-size: 70px ;
     background-repeat: no-repeat;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .bg-2 {
-    background-image: url(../img/svg/Ellipse-green-ring.svg);
+    background-image: url(../img/png/Btn-Rgister-FB.png);
     background-size: 70px;
     background-repeat: no-repeat;
 }
@@ -195,11 +254,11 @@ a {
     margin-left: auto;
     text-align: center;
     font-size: 28px;
+    font-family: 'Roboto-thin';
     color: #fff;
 }
 
 /*-----------------Price Section -----------------*/
-
 .price {
     width: 1300px;
     margin-right: auto;
@@ -254,6 +313,14 @@ a {
     background-color: #58ad52;
 }
 
+.img-prof {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: -25px;
+    margin-left: 40px;
+}
+
 .ent-plan__name {
     background-color: #52a1ad;
 }
@@ -299,14 +366,29 @@ a {
 
 .sgn-btn {
     background-color: #4b596c;
+    transition: all 0.2s ease;
+}
+
+.sgn-btn:hover {
+    background-color: #3e516b;
 }
 
 .prof-btn {
     background-color: #58ad52;
+    transition: all 0.2s ease;
+}
+
+.prof-btn:hover {
+    background-color: #4c9e46;
 }
 
 .entpr-btn {
     background-color: #52a1ad;
+    transition: all 0.2s ease;
+}
+
+.entpr-btn:hover {
+    background-color: #2b97a7   ;
 }
 
 .sgn-btn,
@@ -317,11 +399,12 @@ a {
     margin-top: 150px;
     padding-top: 10px;
     padding-bottom: 10px;
-    
     text-align: center;
     font-size: 32px;
     color: #fff;
+    
 }
+
 
 /*-----------------Video Section -----------------*/
 .video {
@@ -392,25 +475,31 @@ a {
     width: 400px;
     height: 50px;
     padding: 0;
+    padding-left: 10px;
     border: 2px solid #4c4f53;
     border-radius: 6px;
     outline: none;
     font-size: 22px;
     color: #fff;
     background-color: #2f3338;
+    transition: all 0.5s ease;
 }
 
-.callback-input-name:focus,
+.callback-input-name:focus, 
 .callback-input-mail:focus,
 .callback-input-message:focus {
     border: 2px solid #743538;
     background-color: #2f3136;
+    opacity: 1;
+    border: 2px solid #be393b;
+    transition: all 0.2s ease;
 }
 
 .callback-input-message {
     width: 450px;
     height: 175px;
     padding: 0;
+    padding-left: 10px;
     border: 2px solid #4c4f53;
     border-radius: 6px;
     outline: none;
@@ -419,7 +508,6 @@ a {
     resize: none;
     background-color: #2f3338;
 } 
-
 
 .input-name {
     color: #fff;
@@ -438,5 +526,66 @@ a {
     border-radius: 6px;
     cursor: pointer;
     color: #fff;
-    background-color: #be393b;   
+    background-color: #be393b;
+    transition: background 0.2s ease;
+}
+
+.sub-btn:hover {
+    background-color: #a71c1e;
+}
+
+/*----------------- Footer -----------------*/
+.footer {
+    background-color: #2a2d33;
+}
+
+.footer__navigation {
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/png/circle_half.png), url(../img/png/circle.svg);
+    background-blend-mode: normal;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: left center;
+}
+
+.social-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: auto;
+}
+
+.social-item {
+    width: 40px;
+    height: 40px;
+    margin-left: 25px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.site-description-footer {
+    font-size: 26px;
+    padding: 0;
+    margin-left: 55px;
+}
+
+.footer__description {
+    font-size: 22px;
+    color: #8d8d8d;
+}
+
+.bg-3 {
+    background-image: url(../img/png/Btn-tw.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
+
+.bg-4 {
+    background-image: url(../img/png/Btn-fb.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
 }
