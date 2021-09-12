@@ -63,6 +63,7 @@
                 <ul class="prof-plan">
                     <li class="prof-plan__name">
                         Professional
+                        <img src="../sites/img/png/eclipse-yellow.png" alt="eclipse" class="img-prof">
                     </li>
                     <li class="prof-plan__price">
                         $50/Month
@@ -108,22 +109,34 @@
     <section class="callback">
         <form action="#" method="POST" class="callback-list">
             <div class="callback-item-name">
-                <p class="input-name">Name</p>
-                <input type="text" name="name" class="callback-input-name">
+                <p class="input-name">Name <font color="red">*</font></p>
+                <input type="text" name="name" autocomplete="off" class="callback-input-name">
             </div>
             <div class="callback-item-mail">
-                <p class="input-name">E-Mail</p>
-                <input type="email" name="e-mail" class="callback-input-mail">
+                <p class="input-name">E-Mail <font color="red">*</font></p>
+                <input type="email" name="e-mail" autocomplete="off" class="callback-input-mail">
             </div>
             <div class="callback-item-message">
-                <p class="input-name">Message</p>
+                <p class="input-name">Message <font color="red">*</font></p>
                 <textarea name="message" id="" cols="30" rows="10" class="callback-input-message"></textarea>
             </div>
             <div class="callback-item-button">
                 <input type="submit" value="send" class="sub-btn">
             </div>
         </form>
-        
     </section>
+    <footer class="footer">
+        <div class="footer__navigation">
+            <p class="footer__description"><a href="#" class="site-description site-description-footer">Flat Mate | </a> Designed by WWW.CSSAUTHOR.COM</p>
+            <ul class="social-list">
+                <li class="social-item bg-3">
+                    <a href="#"></a>
+                </li>
+                <li class="social-item bg-4">
+                    <a href="#"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
