@@ -77,6 +77,12 @@ a {
     font-size: 30px;
     color: #e4e4e4;
     background-color: rgba(85,84,118,0.07);
+    transition: background-color 0.6s ease;
+}
+
+.carousel__read-more:hover {
+    background-color: rgba(25, 25, 26, 0.219);
+    transition: background-color 0.5s ease;
 }
 
 /**************** Lerning ******************/
@@ -208,6 +214,25 @@ a {
     margin-right: auto;
     border: solid 1px #d8d8d8;
     outline: none;
+    transition: border 0.6s ease;
+}
+
+.callback_input-item::-webkit-input-placeholder,
+.callback_textarea-item::-webkit-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.6s ease;
+}
+
+.callback_input-item:focus::-webkit-input-placeholder,
+.callback_textarea-item:focus::-webkit-input-placeholder{
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+
+.callback_input-item:focus,
+.callback_textarea-item:focus {
+    border: solid 1px #4c505d;
+    transition: border 0.6s ease;
 }
 
 .callback_textarea-item {
@@ -218,6 +243,7 @@ a {
     margin-right: auto;
     border: solid 1px #d8d8d8;
     outline: none;
+    transition: border 0.6s ease;
 }
 
 .callback_submit-item {
@@ -230,7 +256,19 @@ a {
     border: none;
     border-radius: 100%;
     background-image: url(../img/png/Shape-5.png);
+    transition: all 0.6s ease;
 }
+
+.callback_submit-item:hover {
+    transform: scale(1.1);
+    transition: all 0.6s ease;
+}
+
+.callback_submit-item:focus {
+    border: solid 1px #000000;
+    border-radius: 100%;
+}
+
 
 /**************** Footer ******************/
 .footer {
