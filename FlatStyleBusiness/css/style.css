@@ -113,7 +113,6 @@ a {
     width: 420px;
     display: flex;
     padding: 0;
-    margin: ;
     margin-top: 70px;
     margin-bottom: 80px;
     margin-left: auto;
@@ -142,3 +141,80 @@ a {
 .bg-3 {
     background-image: url(../img/svg/diplomat.svg);
 }
+
+/**************** Author ******************/
+.author {
+    width: 1280px;
+    background-color: #00d089;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.author__name-container {
+    display: flex;
+    padding-left: 45%;
+    padding-top: 95px;
+    padding-bottom: 60px;
+}
+
+.author__name {
+    width: 130px;
+    margin: 0;
+    margin-left: 40px;
+    color: #fff;
+    font-size: 26px;
+    text-transform: uppercase   ;
+    background-image: url(../img/png/quots.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.author__description {
+    width: 900px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 95px;
+    text-align: left;
+    color: #fff;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+/**************** CallBack ******************/
+
+.callback {
+    width: 1280px;
+    height: 518px;
+    padding-top: 164px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/png/bg-map.png);
+    background-repeat: no-repeat;
+}
+
+.callback-form {
+    display: flex;
+    padding-top: 112px;
+    flex-direction: column;
+    background-image: url(../img/svg/Ellipse-mail-to.svg);
+    background-repeat: no-repeat;
+    background-size: 430px;
+    background-position: center;
+}
+
+.callback_input-item {
+    width: 237px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.callback_textarea-item {
+    width: 237px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.callback_submit-item {
+
+}  
