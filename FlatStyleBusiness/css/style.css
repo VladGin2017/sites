@@ -185,36 +185,66 @@ a {
 
 .callback {
     width: 1280px;
-    height: 518px;
-    padding-top: 164px;
+    height: 530px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(../img/png/bg-map.png);
+    background-image: url(../img/svg/Ellipse-mail-to.svg), url(../img/png/bg-map.png);
+    background-blend-mode: normal;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .callback-form {
     display: flex;
-    padding-top: 112px;
     flex-direction: column;
-    background-image: url(../img/svg/Ellipse-mail-to.svg);
-    background-repeat: no-repeat;
-    background-size: 430px;
-    background-position: center;
+    padding-top: 164px;
 }
 
 .callback_input-item {
-    width: 237px;
+    width: 275px;
+    height: 31px;
+    margin-bottom: 14px;
     margin-left: auto;
     margin-right: auto;
+    border: solid 1px #d8d8d8;
+    outline: none;
 }
 
 .callback_textarea-item {
-    width: 237px;
+    width: 275px;
+    height: 80px;
+    resize: none;
     margin-left: auto;
     margin-right: auto;
+    border: solid 1px #d8d8d8;
+    outline: none;
 }
 
 .callback_submit-item {
+    width: 66px;
+    height: 67px;
+    margin-top: 33px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border: none;
+    border-radius: 100%;
+    background-image: url(../img/png/Shape-5.png);
+}
 
-}  
+/**************** Footer ******************/
+.footer {
+    width: 1280px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #00d089;
+}
+
+.footer__description {
+    margin: 0;
+    padding-top: 13px;
+    color: #fff;
+    text-transform: uppercase;
+}
