@@ -1,0 +1,109 @@
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 1800px;
+    display: flex;
+    background-image: url(../img/svg/bg-header.svg);
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #4c515a;
+    border-width: 0px 0px 1px 0px;
+}
+
+.header__burger-menu {
+    width: 29.81px;
+    height: 22.25px;
+    background-image: url(../img/png/burger-menu.png);
+    background-repeat: no-repeat;
+    border: solid #4c515a;
+    border-width: 0px 1px 0px 0px;
+}
+
+.header__logo {
+
+}
+
+.header__menu-list {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.header__menu-item {
+    padding-left: 25px;
+}
+
+.header__menu-link {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+    line-height: 25.65px;
+}
+
+.header__social-list {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.header__social-item {
+    padding-left: 25px;
+}
+
+.header__social-link {
+    display: block;
+    width: 30px;
+    height: 30px;
+    
+}
+
+.bg-social-1,
+.bg-social-2,
+.bg-social-3,
+.bg-social-4 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.bg-social-1 {
+    background-image: url(../img/svg/fb.svg);
+}
+
+.bg-social-2 {
+    background-image: url(../img/svg/tw.svg);
+}
+
+.bg-social-3 {
+    background-image: url(../img/svg/g+.svg);
+}
+
+.bg-social-4 {
+    background-image: url(../img/svg/inst.svg);
+}
+
+.header__cart {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    background-image: url(../img/svg/cart.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header__search {
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    background-image: url(../img/svg/search.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
