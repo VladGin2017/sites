@@ -1,3 +1,61 @@
+@font-face {
+    font-family: 'Poppins-bold';
+    src: url('../fonts/Poppins/poppins-bold-webfont.woff2') format('woff2'),
+        url('../fonts/Poppins/poppins-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-regular';
+    src: url('../fonts/Poppins/poppins-regular-webfont.woff2') format('woff2'),
+        url('../fonts/Poppins/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-black';
+    src: url('../fonts/Poppins/poppins-black-webfont.woff2') format('woff2'),
+        url('../fonts/Poppins/poppins-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-semibold';
+    src: url('../fonts/Poppins/poppins-semibold-webfont.woff2') format('woff2'),
+        url('../fonts/Poppins/poppins-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-regular';
+    src: url('../fonts/Montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+        url('../fonts/Montserrat/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-bold';
+    src: url('../fonts/Montserrat/montserrat-bold-webfont.woff2') format('woff2'),
+        url('../fonts/Montserrat/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-semibold';
+    src: url('../fonts/Montserrat/montserrat-semibold-webfont.woff2') format('woff2'),
+        url('../fonts/Montserrat/montserrat-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 body {
     font-family: sans-serif;
 }
@@ -11,13 +69,14 @@ a {
     height: 900px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(../img/png/Layer-header.png);
-    
+    background-image: url(../img/jpg/Layer-header.jpg);
 }
 
 .header__navi-menu {
-    width: 1800px;
     display: flex;
+    max-width: 1800px;
+    max-height: 74px;
+    align-items: center;
     background-image: url(../img/svg/bg-header.svg);
     margin-left: auto;
     margin-right: auto;
@@ -26,22 +85,36 @@ a {
 }
 
 .header__burger-menu {
-    width: 29.81px;
-    height: 22.25px;
+    display: block;
+    min-width: 74px;
+    min-height: 74px;
     background-image: url(../img/png/burger-menu.png);
     background-repeat: no-repeat;
+    background-size: 29.81px 22.25px;
+    background-position: center center;
     border: solid #4c515a;
     border-width: 0px 1px 0px 0px;
 }
 
 .header__logo {
-
+    display: block;
+    width: 140px;
+    height: 74px;
+    margin-left: 21px;
+    padding-right: 28px;
+    background-image: url(../img/png/header-logo.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    border: solid #4c515a;
+    border-width: 0px 1px 0px 0px;
+    
 }
 
 .header__menu-list {
     display: flex;
     margin: 0;
     list-style: none;
+    font-family: 'Montserrat-semibold';
 }
 
 .header__menu-item {
@@ -57,12 +130,19 @@ a {
 
 .header__social-list {
     display: flex;
+    align-items: center;
+    height: 74px;
     margin: 0;
+    padding: 0;
+    margin-left: 580px;
+    padding-right: 44px;
     list-style: none;
+    border: solid #4c515a;
+    border-width: 0px 1px 0px 1px;
 }
 
 .header__social-item {
-    padding-left: 25px;
+    padding-left: 38px;
 }
 
 .header__social-link {
@@ -98,37 +178,45 @@ a {
 }
 
 .header__cart {
-    display: block;
-    width: 30px;
-    height: 30px;
-    margin-left: auto;
+    width: 77px;
+    height: 74px;
     background-image: url(../img/svg/cart.svg);
-    background-size: contain;
+    background-size: 30px 30px;
     background-repeat: no-repeat;
+    background-position: center center;
+    border: solid #4c515a;
+    border-width: 0px 1px 0px 0px;
 }
 
 .header__search {
-    width: 30px;
-    height: 30px;
-    margin-left: auto;
+    width: 74px;
+    height: 74px;
     background-image: url(../img/svg/search.svg);
-    background-size: contain;
+    background-size: 30px 30px;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .discount-heading {
-    width: 700px;
+    max-width: 600px;
+    height: auto;
     margin: 0;
-    text-align: center;
-    text-transform: uppercase;
+    margin-top: 180px;
+    margin-left: 250px;
     color: #fff;
-    font-size: 203px;
-    line-height: 147px;
+    line-height: 147.24px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 203.66px;
+    font-family: 'Poppins-bold';
+    letter-spacing: -17px;
 }
 
 .discount-description {
-    width: 560px;
+    width: 600px;
     margin: 0;
+    margin-left: 250px;
+    font-family: 'Montserrat-bold';
     text-align: center;
     text-transform: uppercase;
     color: #fff;
@@ -137,12 +225,16 @@ a {
 }
 
 .btn-discount {
-    display: block;
-    width: 160px;
+    min-width: 160px;
     font-size: 17px;
     color: #fff;
+    margin: 0;
+    margin-left: 300px;
     padding-top: 19px;
     padding-bottom: 17px;
+    padding-left: 29px;
+    padding-right: 26px;
+    font-family: 'Montserrat-regular';
     text-align: center;
     text-transform: uppercase;
     background-color: #3954d9;
