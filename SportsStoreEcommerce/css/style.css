@@ -8,6 +8,15 @@ a {
 
 .header {
     width: 1800px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/png/Layer-header.png);
+    
+}
+
+.header__navi-menu {
+    width: 1800px;
     display: flex;
     background-image: url(../img/svg/bg-header.svg);
     margin-left: auto;
@@ -105,4 +114,37 @@ a {
     background-image: url(../img/svg/search.svg);
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.discount-heading {
+    width: 700px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 203px;
+    line-height: 147px;
+}
+
+.discount-description {
+    width: 560px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.btn-discount {
+    display: block;
+    width: 160px;
+    font-size: 17px;
+    color: #fff;
+    padding-top: 19px;
+    padding-bottom: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #3954d9;
+    border-radius: 25px;
 }
