@@ -497,3 +497,47 @@ a {
     background-color: #3954d9;
     border-radius: 25px;
 }
+
+/********************* Products **********************/
+.product {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.produtcs-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+}
+
+.products-item {
+    width: 375px;
+    height: 375px;
+}
+
+.products-item__heading {
+    font-size: 25px;
+    line-height: 25.65px;
+    font-family:'BebasNeueBold';
+    color: #0d2e57;
+}
+
+.new-price {
+    font-family: 'Montserrat-semibold';
+    font-size: 10px;
+    line-height: 25.65px;
+    color: #3954d9;
+}
+.old-price {
+    font-family: 'Montserrat-semibold';
+    font-size: 8px;
+    line-height: 25.65px;
+    color: #818181;
+    text-decoration: line-through;
+}
+.products-discount
+.sg-up-btn
+.bg-prod-1
+.btn-prod
