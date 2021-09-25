@@ -692,3 +692,29 @@ a {
 .gallery-item img:hover {
     transform: scale(1.1);
 }
+
+
+/********************* Brends **********************/
+.brends {
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.brends-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.brend-item {
+    width: 250px;
+    height: 250px;
+}
+
+.img-brend {
+    
+}
