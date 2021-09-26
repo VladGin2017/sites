@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'latoblack';
+    src: url('../fonts/lato-black-webfont.woff2') format('woff2'),
+         url('../fonts/lato-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latolight';
+    src: url('../fonts/lato-light-webfont.woff2') format('woff2'),
+         url('../fonts/lato-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latothin';
+    src: url('../fonts/lato-thin-webfont.woff2') format('woff2'),
+         url('../fonts/lato-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebasneue';
+    src: url('../fonts/bebasneue-regular-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.header {
+    position: relative;
+    width: 1600px;
+    height: 739px;
+    margin: 0px auto;
+    background-image: url(../img/png/bg-header.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo-container {
+    max-width: 170px;
+    padding-top: 45px;
+    margin-left: 80px;
+    text-align: center;
+}
+
+.logo-heading {
+    margin: 0;
+    padding: 0;
+    line-height: 32px;
+    font-family:'latoblack';
+    font-size: 40.36px;
+    color: #fff;
+}
+
+.logo-heading span {
+    color: #daa505;
+    text-transform: uppercase;
+}
+
+.logo-description {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family:'latoblack';
+    font-size: 15.01px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.header__menu {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    right: 0;
+    padding-top: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    list-style: none;
+}
+
+.menu-item {
+    margin-right: 50px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'latoblack';
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.heading {
+    margin: 0;
+    font-family:'latoblack';
+    font-size: 35.74px;
+    color: #ffc61a;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header-number {
+    margin: 0;
+    font-family:'latoblack';
+    font-size: 72.26px;
+    color: #fff;
+    text-align: center;
+}
+
+.header-site {
+    margin: 0;
+    font-family: 'latoblack';
+    font-size: 20px;
+    letter-spacing: 14.4px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.booking {
+    width: 1600px;
+    height: 707px;
+    margin: 0 auto;
+    background-color: #ffc61a;
+}
+
+.booking__heading {
+    margin: 0;
+    font-family: 'latoblack';
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.booking__heading span {
+    font-size: 35px;
+    line-height: 32px;
+}
+
+.booking__description {
+    margin: 0;
+    margin-top: 35px;
+    font-family:'latoregular';
+    font-size: 18px;
+}
+
+.read-more-btn {
+    display: block;
+    width: 105px;
+    /* display: block;
+    width: 166px;
+    height: 48px;
+    margin-top: 50px;
+    margin-bottom: 50px; */
+    border-radius: 10px;
+    padding: 15px 32px 12px 35px;
+    background-color: black;
+    text-decoration: none;
+    font-size: 29.53px;
+    font-family: 'bebasneue';
+    text-transform: uppercase;
+    color: #fff;
+
+}
