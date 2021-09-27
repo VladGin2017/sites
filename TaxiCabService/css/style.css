@@ -46,7 +46,7 @@
     font-style: normal;
 }
 
-
+/* Header */
 .header {
     position: relative;
     width: 1600px;
@@ -141,11 +141,20 @@
     text-align: center;
 }
 
+
+/* Booking description */
 .booking {
     width: 1600px;
-    height: 707px;
+    min-height: 1707px;
     margin: 0 auto;
     background-color: #ffc61a;
+    display: flex;
+    justify-content: center;
+}
+
+.booking__read-more-container {
+    margin-top: 155px;
+    margin-right: 215px;
 }
 
 .booking__heading {
@@ -163,6 +172,7 @@
 .booking__description {
     margin: 0;
     margin-top: 35px;
+    margin-bottom: 60px;
     font-family:'latoregular';
     font-size: 18px;
 }
@@ -184,4 +194,81 @@
     text-transform: uppercase;
     color: #fff;
 
+}
+
+/* Boooking Form */
+.booking__form-container {
+    max-width: 422px;
+    max-height: 472px;
+    margin-top: 155px;
+    background-color: #fff;
+}
+
+.bkng-container-heading {
+    margin: 0;
+    padding: 26px 0px 26px 37px;
+    font-family: 'latoblack';
+    font-size: 34.43px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #000;
+}
+
+.bkng-container-heading-span {
+    color: #ffc61a;
+}
+
+.booking-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.first-groupe,
+.second-groupe {
+    font-family: 'latobold';
+    font-size: 20px;
+}
+
+.first-groupe {
+    margin-right: 23px;
+}
+
+.first-groupe::placeholder {
+    color: #000;
+}
+
+.second-groupe::placeholder {
+    color: #4b4b4b;
+}
+
+.bkng-input {
+    padding: 0;
+    margin-top: 37px;
+    width: 171px;
+    border: none;
+    border-bottom: 2.72px solid #e4e4e4;
+    outline: none;
+}
+
+.bkng-vhlc-input {
+    width: 365px;
+    margin: 0;
+    margin-top: 37px;
+    margin-bottom: 44px;
+    padding: 0;
+    border: none;
+    border-bottom: 2.72px solid #e4e4e4;
+    outline: none;
+}
+
+.submit-btn {
+    width: 376px;
+    margin-bottom: 19px;
+    font-family: 'bebasneue';
+    font-size: 29.53px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
 }
