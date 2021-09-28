@@ -145,7 +145,7 @@
 /* Booking description */
 .booking {
     width: 1600px;
-    min-height: 1707px;
+    min-height: 707px;
     margin: 0 auto;
     background-color: #ffc61a;
     display: flex;
@@ -224,51 +224,128 @@
     justify-content: center;
 }
 
-.first-groupe,
-.second-groupe {
-    font-family: 'latobold';
-    font-size: 20px;
-}
-
-.first-groupe {
-    margin-right: 23px;
-}
-
-.first-groupe::placeholder {
-    color: #000;
-}
-
-.second-groupe::placeholder {
-    color: #4b4b4b;
-}
-
 .bkng-input {
     padding: 0;
-    margin-top: 37px;
     width: 171px;
     border: none;
     border-bottom: 2.72px solid #e4e4e4;
     outline: none;
+    font-family: 'latobold';
+    font-size: 20px;
+}
+
+.bkng-input:nth-child(2n+1) {
+    margin-right: 23px;
+}
+
+.bkng-input:nth-child(2n+1)::placeholder {
+    color: #000;
+}
+
+.bkng-input:nth-child(2n)::placeholder {
+    color: #4b4b4b;
+}
+
+.first-groupe {
+    margin-top: 37px;
+}
+
+.second-groupe {
+    margin-top: 40px;
+}
+
+.third-groupe {
+    margin-top: 47px;
 }
 
 .bkng-vhlc-input {
     width: 365px;
     margin: 0;
     margin-top: 37px;
-    margin-bottom: 44px;
+    margin-bottom: 47px;
     padding: 0;
     border: none;
     border-bottom: 2.72px solid #e4e4e4;
     outline: none;
+    font-family: 'latobold';
+    font-size: 20px;
+}
+
+.bkng-vhlc-input::placeholder {
+    color: #000;
 }
 
 .submit-btn {
     width: 376px;
-    margin-bottom: 19px;
     font-family: 'bebasneue';
     font-size: 29.53px;
     color: #fff;
     background-color: #000;
     border: none;
     border-radius: 5px;
+}
+
+/* Tarifs */
+.tarifs {
+    width: 1600px;
+    min-height: 764px;
+    margin: 0 auto;
+}
+
+.tarifs__list {
+    padding: 0;
+    margin: 261px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.tarif-item {
+    max-width: 373px;
+    min-height: 424px;
+}
+
+.popular-tarif {
+    background-color: #ffc61a;
+}
+
+.tarif-heading {
+    margin: 124px 0px 31px 0px;
+    font-family:'latoblack';
+    font-size: 30.42px;
+    text-align: center;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.tarif-description {
+    margin: 0px 0px 35px 0px;
+    padding: 0px 38px 0px 33px;
+    font-family: 'latoregular';
+    font-size: 18px;
+    text-align: center;
+}
+
+.tarif-price {
+    margin: 0px 0px 35px 0px;
+    font-family: 'latoblack';
+    font-size: 43.94px;
+    color: #ffc61a;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 43px;
+}
+
+.btn-tarif {
+    margin: 0 auto;
+    color: #000;
+    background-color: #ffc61a;
+    line-height: 21px;
+}
+
+.btn-popular-tarif {
+    margin: 0 auto;
+    color: #fff;
+    background-color: #1b1b1b;
+    line-height: 21px;
 }
