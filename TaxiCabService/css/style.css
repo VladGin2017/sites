@@ -140,6 +140,7 @@ body {
 .header-number {
     margin: 0;
     font-size: 72.26px;
+    line-height: 72px;
     color: #fff;
     text-align: center;
 }
@@ -472,4 +473,89 @@ body {
 
 .free-download, .download-description {
     margin-left: 331px;
+}
+
+/* Testimonials */
+.testimonials {
+    width: 1600px;
+    min-height: 611px;
+    margin: 0 auto;
+    background-image: url(../img/png/testimonials-bg.png);
+}
+
+.testimonials__heading {
+    padding: 112px 0px 105px 0px;
+    color: #fff;
+}
+
+.testimonials-list {
+    max-width: 1193px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+}
+
+.testimonials-item {
+    min-width: 580px;
+    min-height: 230px;
+    background-color: #000;
+    border-radius: 40px;
+}
+
+.testimonials-description {
+    margin: 0;
+    padding: 41px 69px 23px 50px;
+    font-family: 'latoregular';
+    font-size: 18px;
+    color: #fff;
+}
+
+.client-info-block {
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 30px 50px;
+}
+
+.client-photo {
+    margin-right: 18px;
+}
+
+.client-info {
+    margin: 0;
+    font-size: 25px;
+    color: #ffc61a;
+    line-height: 25px;
+}
+
+.client-info span {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 18px;
+    padding-left: 5px;
+}
+
+/* Callback */
+.callback {
+    max-width: 1600px;
+    max-height: 287px;
+    margin: 0 auto;
+    background-color: #ffc61a;
+}
+
+.callback__description {
+    margin: 0;
+    padding: 74px 0px 36px 0px;
+    font-size: 35px;
+    line-height: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.callback__number {
+    color: #000;
+    padding: 0px 0px 70px 0px;
 }
